@@ -1,1 +1,1 @@
-# bgc..github.io
+# bgc.github.io
