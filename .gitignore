@@ -1,0 +1,29 @@
+.jshintrc
+.tern-project
+.gitignore
+.eslintrc
+
+# VIM SPECIFIC
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+#NETBEANS
+nbproject/
+
+#ideia
+.idea/
+
+#Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+#KATE
+.kateproject
+.kateproject.d/
+
+#LIBS folder
+devLibs/
