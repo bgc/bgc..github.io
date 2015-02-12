@@ -52,23 +52,124 @@ ul.posts li {
 .avatar {
   position: relative;
 }
-
+/*
 .avatar div {
-  border-radius: 93% 0% 93% 0%;
+  border-radius: 100% 0% 100% 0%;
   background-color: #ccc;
-  width: 53px;
-  height: 53px;
+  width: 50px;
+  height: 50px;
   top: 0px;
   left: 0px;
   position: absolute;
+	background :
+		linear-gradient(
+			135deg,
+			#fff,
+			#f3f3f3 45%,
+			#ddd 50%,
+			#aaa 50%,
+			#bbb 56%,
+			#ccc 62%,
+			#f3f3f3 80%,
+			#fff 100%
+		);
+	box-shadow : 0 0 10px rgba(0, 0, 0, .5);
+	transition: width, height .5s ease;
+
 }
+*/
 
 .avatar img {
 		max-width: 100px;
 		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
+/*
+.avatar div:before,
+.avatar div:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	left: 0%;
 
+}
+.avatar div:after {
+	left: auto;
+	right: 5.8%;
+	bottom: auto;
+	top: 14.16%;
+	transform: skew(-15deg) rotate(-84deg);
+}
+
+.avatar div:hover {
+width: 42px;
+height: 42px;
+top: 0.5px;
+left: 0.5px;
+}
+
+.avatar div:hover:before,
+	.avatar div:hover:after {
+		box-shadow: 0 24px 30px rgba(0, 0, 0, .3);
+}
+
+*/
+
+/*
+
+.avatar div {
+border-radius: 100% 0% 100% 0%;
+background-color: #ccc;
+width: 50px;
+height: 50px;
+top: 0px;
+left: 0px;
+position: absolute;
+background: linear-gradient( 135deg, #fff, #f3f3f3 45%, #ddd 50%, #aaa 50%, #bbb 56%, #ccc 62%, #f3f3f3 80%, #fff 100% );
+box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+transition: width, height .5s ease;
+}
+user agent stylesheet
+
+
+.avatar div:before, .avatar div:after {
+content: '';
+position: absolute;
+z-index: -1;
+left: 0%;
+/* bottom: 5.8%; */
+/* width: 38%; */
+/* max-width: 58px; */
+/* max-height: 50px; */
+/* height: 55%; */
+/* box-shadow: 0 12px 15px rgba(0, 0, 0, .3); */
+/* transform: skew(-39deg) rotate(-27deg); */
+/*}
+
+
+left: 0;
+right: 5.8%;
+bottom: auto;
+top: 0;
+transform: skew(-15deg) rotate(-84deg);
+}
+.avatar div:before, .avatar div:after {
+content: '';
+position: absolute;
+z-index: -1;
+left: 0%;
+/* bottom: 5.8%; */
+/* width: 38%; */
+/* max-width: 58px; */
+/* max-height: 50px; */
+/* height: 55%; */
+/* box-shadow: 0 12px 15px rgba(0, 0, 0, .3); */
+/* transform: skew(-39deg) rotate(-27deg); */
+/*}
+
+ */
 /*
 .curl {
   width:120px;
