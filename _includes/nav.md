@@ -1,4 +1,4 @@
-	* Home
-	* About
-	* CV
-	* Blog
+* Home
+* About
+* CV
+* Blog

@@ -13,7 +13,10 @@
 				<li><a href="/blog">Blog</a></li> -->
 		<!-- </ul> -->
 		<nav>
+			{% capture my_include %}
 		{% include nav.md %}
+		{% endcapture %}
+		{{ my_include | markdownify }}
 		</nav>
 		<div class="container">
 		{{ content }}
