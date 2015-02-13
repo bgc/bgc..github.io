@@ -1,4 +1,0 @@
-- Home
-- About
-- CV
-- Blog
