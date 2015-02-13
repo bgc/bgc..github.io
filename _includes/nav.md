@@ -1,4 +1,4 @@
-<nav>
+
 	* Home
 	* About
 	* CV
@@ -10,4 +10,3 @@
 				<li><a href="/cv">CV</a></li>
 				<li><a href="/blog">Blog</a></li> -->
 		<!-- </ul> -->
-</nav>
