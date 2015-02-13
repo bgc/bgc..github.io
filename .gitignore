@@ -27,3 +27,7 @@ nbproject/
 
 #LIBS folder
 devLibs/
+
+
+#githubpages
+_site/
