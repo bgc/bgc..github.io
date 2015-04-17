@@ -49,8 +49,6 @@ ul.posts li {
   BGC
 
  */
-
-
 /*
 1D2825
 FAE8C5
@@ -60,35 +58,30 @@ F2ECCE
 */
 
 .color4 {
-	color: #A5A692;
+		color: #A5A692;
 }
-
 .bgcolor4 {
-	background-color: #A5A692;
+		background-color: #A5A692;
 }
-
 body {
+		color: #1D2825;
 		margin: 60px auto;
 		width: 70%;
 }
-
 nav ul, footer ul {
 		font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 		padding: 0px;
 		list-style: none;
 		font-weight: bold;
 }
-
 nav ul li, footer ul li {
 		display: inline;
 		margin-right: 20px;
 }
-
 a {
 		text-decoration: none;
 		color: #999;
 }
-
 footer {
 		font-size: .8em;
 }
@@ -99,29 +92,20 @@ ul.posts {
 ul.posts li {
 		list-style: none;
 }
-
 .avatar {
-  position: relative;
-	margin: 0 auto;
-	width: 100px;
+		position: relative;
+		margin: 0 auto;
+		width: 100px;
 }
-
-
 .mtopbot {
-	margin-top: 20px;
-	margin-bottom: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 }
-
 .avatar img {
 		max-width: 100px;
 		border-radius: 50%;
 		box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
-
-
-
-
-
 /*
 .avatar div {
   border-radius: 100% 0% 100% 0%;
@@ -178,7 +162,6 @@ left: 0.5px;
 }
 
 */
-
 /*
 
 .avatar div {
