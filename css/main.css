@@ -3,6 +3,7 @@
   GENERATED
 
  */
+/*
 body {
 		margin: 60px auto;
 		width: 70%;
@@ -44,16 +45,53 @@ ul.posts {
 ul.posts li {
 		list-style: none;
 }
+
+*/
 /*
 
   BGC
 
  */
+
+
+/*
+1D2825
+FAE8C5
+415145
+A5A692
+F2ECCE
+*/
+
+.color4 {
+	color: #A5A692;
+}
+
+.bgcolor4 {
+	background-color: #A5A692;
+}
+
 .avatar {
   position: relative;
 	margin: 0 auto;
 	width: 100px;
 }
+
+
+.mtopbot {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.avatar img {
+		max-width: 100px;
+		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+
+
+
+
 /*
 .avatar div {
   border-radius: 100% 0% 100% 0%;
@@ -80,18 +118,6 @@ ul.posts li {
 
 }
 */
-
-.mtopbot {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.avatar img {
-		max-width: 100px;
-		border-radius: 50%;
-		box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-}
-
 /*
 .avatar div:before,
 .avatar div:after {
