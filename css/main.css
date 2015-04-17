@@ -79,6 +79,11 @@ ul.posts li {
 }
 */
 
+.mtopbot {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .avatar img {
 		max-width: 100px;
 		border-radius: 50%;
